@@ -1,0 +1,148 @@
+@media only screen and (max-width: 768px) {
+	.header {
+		padding: 5px 30px;
+	}
+	.section-One {
+		display: block;
+		padding: 15px 30px 70px 30px;
+	}
+	.section-One .Left-Side, 
+	.section-One .Right-Side,
+	.section-Two .Left-Side, 
+	.section-Two .Right-Side,
+	.section-Three .product .Left-Side,
+	.section-Three .product .Right-Side,
+	.section-Five .Left-Side, 
+	.section-Five .Right-Side {
+		flex-basis: 100%;
+	}
+	.section-One .Left-Side h6 {
+	    font-size: 40px;
+	    margin: 30px 0px 30px 0;
+	    text-align: center;
+	}
+	.section-One .Right-Side {
+	    padding-left: 0px;
+	}
+	.section-One .Right-Side .Infusion {
+		width: 100%;
+	}
+	.section-One .Left-Side img {
+		margin-bottom: 10px;
+	}
+	.section-One .Left-Side img,
+	.section-One .Right-Side img {
+		width: 100%;
+	}
+	.section-Two {
+		display: block;
+		padding: 15px 30px 70px 30px;
+	}
+	.section-Two .Left-Side img {
+		margin-top: 20px;
+	}
+	.section-Two .Left-Side {
+		text-align: center;
+	}
+	.section-Two .Right-Side h6 {
+		width: auto;
+		font-size: 40px;
+		margin: 30px 0px 30px 0;
+	    text-align: center;
+	}
+	.about {
+		padding: 15px 0 0 0;
+		text-align: center;
+	}
+	.section-Three {
+		display: block;
+		padding: 15px 30px 70px 30px;
+	}
+	.section-Three .product {
+    	display: block;
+    	padding: 0 20px 20px 20px;
+	}
+	.section-Three .product .Left-Side h6 {
+	    font-size: 40px;
+	    width: auto;
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.section-Three .image-gallery ul {
+		display: block;
+		padding-left: 0;
+	}
+	.section-Three .image-gallery ul li .product1 {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.section-Three .image-gallery .all {
+		left: -80px;
+	}
+	.section-Four .ourcoll {
+    	font-size: 40px;
+		margin-bottom: 150px;
+	}
+	.section-Four .Kitch {
+		width: 100%;
+	}
+	.section-Four .Kitch .pagination {
+		margin: 25px 15px;
+	}
+	.section-Four .Kitchen1 {
+		right: 15%;
+	    transform: translateX(-15%);
+	    width: 120px;
+	    height: 120px;
+	}
+	.section-Four .Kitchen2 {
+		left: 15%;
+	    transform: translateX(-15%);
+	    width: 120px;
+	    height: 120px;
+	    top: 60px;
+	}
+	.section-Four .Kitchen1 img, .section-Four .Kitchen2 img {
+		margin-top: 50px;
+	}
+	.section-Five {
+		display: block;
+		padding: 0;
+	}
+	.section-Five .Right-Side .blog {
+		width: 100%;
+	}
+	.section-Five .Right-Side {
+		padding: 15px 30px;
+	}
+	.section-Five .Right-Side .blog .blogtext {
+		text-align: center;
+	}
+	.section-Five .Right-Side .blog button {
+		margin: 10px auto;
+	}
+	.section-Five .Right-Side .blog .pagination {
+		width: auto;
+	}
+	.section-Five .Right-Side .blog img {
+		width: 100%;
+	}
+	.footer-main {
+		display: block;
+		padding: 25px 30px;
+	}
+	.footer-main .Left-Side h6 {
+		width: 100%;
+		font-size: 30px;
+	    margin-bottom: 30px;
+	}
+	.footer-main .Left-Side .social {
+		margin-bottom: 30px;
+	}
+	.footer-main .Right-Side ul li {
+	    margin: 5px 15px 5px 0;
+	}
+	.footer-main .Right-Side .new-letter {
+		margin-top: 15px;
+	}
+}
